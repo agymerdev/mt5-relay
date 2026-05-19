@@ -1,0 +1,16 @@
+{
+  "name": "mt5-hedge-relay",
+  "version": "2.0.0",
+  "description": "Cloud Relay Server cho hệ thống Hedging MT5 — Không cần Port Forwarding",
+  "main": "relay_server.js",
+  "scripts": {
+    "start": "node relay_server.js",
+    "dev":   "node --watch relay_server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
